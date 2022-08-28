@@ -98,7 +98,19 @@ h1,h2,h3,h4,h5,h6,p{
   }
 }
 
+.img-fluid{
+  width: 100%;
+  background-color: white;
+}
 
+.c-img-fluid{
+  width: 99%;
+  height: 200px;
+  transition: 0.3s ease;
+}
+.c-img-fluid:hover{
+  transform: scale(1.2);
+}
 /*===================== Hero section ======================*/
 
 .about-img{
@@ -204,10 +216,8 @@ h1,h2,h3,h4,h5,h6,p{
 
 .portfolio-item:hover .portfolio-btn {
   opacity: 1;
-  width: calc(100% - 60px);
-  height: calc(100% - 60px);
-  top: 30px;
-  left: 30px;
+  top: 50%;
+  left: 50%;
 }
 
 /* ====================== Testimonial ================*/
